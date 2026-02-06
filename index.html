@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="penguin" id="penguin">
+            <svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+                <!-- Body -->
+                <ellipse class="body" cx="100" cy="140" rx="60" ry="70" fill="#2c3e50"/>
+                <ellipse class="belly" cx="100" cy="145" rx="45" ry="55" fill="#ecf0f1"/>
+                
+                <!-- Head -->
+                <circle class="head" cx="100" cy="70" r="50" fill="#2c3e50"/>
+                <ellipse class="face" cx="100" cy="75" rx="40" ry="35" fill="#ecf0f1"/>
+                
+                <!-- Eyes -->
+                <g class="eyes">
+                    <ellipse class="eye-white left" cx="85" cy="65" rx="12" ry="15" fill="white"/>
+                    <ellipse class="eye-white right" cx="115" cy="65" rx="12" ry="15" fill="white"/>
+                    <circle class="pupil left" cx="85" cy="68" r="6" fill="#2c3e50"/>
+                    <circle class="pupil right" cx="115" cy="68" r="6" fill="#2c3e50"/>
+                    <circle class="shine left" cx="87" cy="66" r="2" fill="white"/>
+                    <circle class="shine right" cx="117" cy="66" r="2" fill="white"/>
+                </g>
+                
+                <!-- Beak -->
+                <ellipse class="beak" cx="100" cy="85" rx="8" ry="6" fill="#f39c12"/>
+                
+                <!-- Blush -->
+                <ellipse class="blush left" cx="65" cy="80" rx="8" ry="5" fill="#ff9999" opacity="0"/>
+                <ellipse class="blush right" cx="135" cy="80" rx="8" ry="5" fill="#ff9999" opacity="0"/>
+                
+                <!-- Mouth (hidden by default) -->
+                <path class="mouth happy" d="M 90 90 Q 100 95 110 90" stroke="#2c3e50" stroke-width="2" fill="none" opacity="0"/>
+                <path class="mouth sad" d="M 90 95 Q 100 90 110 95" stroke="#2c3e50" stroke-width="2" fill="none" opacity="0"/>
+                
+                <!-- Wings -->
+                <ellipse class="wing left" cx="50" cy="130" rx="15" ry="35" fill="#2c3e50"/>
+                <ellipse class="wing right" cx="150" cy="130" rx="15" ry="35" fill="#2c3e50"/>
+                
+                <!-- Feet -->
+                <ellipse class="foot left" cx="80" cy="210" rx="18" ry="10" fill="#f39c12"/>
+                <ellipse class="foot right" cx="120" cy="210" rx="18" ry="10" fill="#f39c12"/>
+            </svg>
+        </div>
+
+        <h1>Will you be my Valentine? 💖</h1>
+        
+        <div class="buttons">
+            <button id="yesBtn" class="yes-btn">Yes 💕</button>
+            <button id="noBtn" class="no-btn">No 😅</button>
+        </div>
+
+        <div id="message" class="message hidden"></div>
+    </div>
+
+    <div id="hearts" class="hearts"></div>
+    <div class="gif-left" id="gifLeft"></div>
+    <div class="gif-right" id="gifRight"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
