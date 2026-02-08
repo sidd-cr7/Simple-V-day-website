@@ -49,6 +49,7 @@ This project was built as a fun, creative exercise and a small demonstration of 
 ## Running the project
 
 You can run the project by opening `index.html` in any modern browser.
+or run it in your terminal
 
 ---
 
