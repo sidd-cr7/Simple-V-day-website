@@ -4,7 +4,7 @@ This is a small interactive Valentine-themed website built using HTML, CSS, and 
 
 Works both on mobile devices and desktops
 
-The site asks a simple question and responds playfully to user interaction. Clicking “No” makes the experience progressively harder, while clicking “Yes” triggers a fun and positive response.
+The site asks a simple question and responds playfully to user interaction. Clicking “No” makes the experience progressively harder, while clicking “Yes” triggers a fun and positive Penguin response.
 
 ---
 
