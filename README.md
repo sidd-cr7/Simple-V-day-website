@@ -23,7 +23,7 @@ The site asks a simple question and responds playfully to user interaction. Clic
 
 ---
 
-## Built with
+ Built with
 
 - HTML  
 - CSS  
