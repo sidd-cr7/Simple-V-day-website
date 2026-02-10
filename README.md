@@ -8,7 +8,7 @@ The site asks a simple question and responds playfully to user interaction. Clic
 
 ---
 
-## What it does
+ What it does
 
 - Displays a Valentine question with Yes and No buttons  
 - The No button avoids the cursor and changes its text dynamically  
