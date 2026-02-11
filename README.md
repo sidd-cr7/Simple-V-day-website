@@ -33,7 +33,7 @@ No frameworks or backend are used.
 
 ---
 
-## Purpose
+Purpose
 
 This project was built as a fun, creative exercise and a small demonstration of front-end interaction and animation using plain JavaScript.
 
